@@ -22,3 +22,4 @@ DISABLE_LLM=true ./.venv/bin/streamlit run main.py
 ```
 
 For full documentation see `docs/INSTALLATION.md`, `docs/DEPLOYMENT.md` and `docs/OVERVIEW.md`.
+# Deal-s-Scope
