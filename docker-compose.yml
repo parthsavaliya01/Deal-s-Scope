@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - DISABLE_LLM=true
+    volumes:
+      - ./:/app
+    restart: unless-stopped
